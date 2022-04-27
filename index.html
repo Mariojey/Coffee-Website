@@ -15,49 +15,52 @@
 
 <body>
 
-    <header class="header">
-
-        <div id="navLogo">
-            <a href="#">Coffee of the World</a>
+    <!--HEADER-->
+    <header id="header">
+        <div id="navbar">
+            <div id="navbarLogo"><span class="logoH">Coffee</span> <span class="logoP">of the world</span></div>
+            <nav id="nav">
+                <ul class="navList">
+                    <li class="navItem">
+                        <a href="#" class="navLink">Home</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">Origin</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">Cultivating</a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#" class="navLink">Types</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="nav" id="navMenu">
-            <ul class="navList">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Origin</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Trade</a></li>
-                <li><a href="#">Drinks</a></li>
-            </ul>
-        </nav>
-        <div id="navToggle" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="navListMobile">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Origin</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Trade</a></li>
-                <li><a href="#">Drinks</a></li>
-            </ul>
+        <div id="headerContent">
+            <h3>A few words about....</h3>
+            <h1>Coffee</h1>
+            <h5>Wonderfull smell, amazing taste, learn more about coffee...</h5>
+            <a href="#" class="scrollDown"><span></span></a>
+        </div>
+        <div id="headerFooter">
+            <p>Photo by Aphiwat chuangchoem from Pexels</p>
         </div>
     </header>
 
-    <section class="section">
-        <h3>A few words about...</h3>
-        <h1>Coffee</h1>
-        <h5>Wonderfull smell, intriguing taste, learn about the different types of coffee.</h5>
-        <a href="#sectionOrigin" class="scrollDown">
-            <span></span> Read More
-        </a>
-        <p>Photo by Aphiwat chuangchoem: https://www.pexels.com/photo/white-ceramic-coffee-teacup-beside-silver-teaspoon-437716/</p>
-    </section>
-    <section class="sectionOrigin" id="sectionOrigin">
-        <div class="originText">
-            <h2>Cultivation</h2>
-            <h5>Coffee is cultivating on three continents</h5>
+    <!--SECTION-->
+    <section id="section">
+        <div id="sectionContent">
+            <h2>Origin</h2>
+            <p>The earliest credible evidence of coffee-drinking or knowledge of the coffee tree appears in the middle of the 15th century in the accounts of Ahmed al-Ghaffar in Yemen. It was here in Arabia that coffee seeds were first roasted and brewed
+                in a similar way to how it is prepared now. Coffee was used by Sufi circles to stay awake for their religious rituals. Accounts differ on the origin of the coffee plant prior to its appearance in Yemen.</p>
+        </div>
+        <div id="sectionImage">
+            <img src="img/pexels-min-an-770318.jpg" alt="" id="coffeeImage">
         </div>
     </section>
+
+    <!--FOOTER-->
+    <footer id="footer"></footer>
     <script src="main.js"></script>
 
 </body>
