@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <!-- STYLESHEETS-->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div id="navLogo">
+            <a href="#">Coffee of the World</a>
+        </div>
+        <nav class="nav" id="navMenu">
+            <ul class="navList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Origin</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Trade</a></li>
+                <li><a href="#">Drinks</a></li>
+            </ul>
+        </nav>
+        <div id="navToggle" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="navListMobile">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Origin</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Trade</a></li>
+                <li><a href="#">Drinks</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="section">
+        <h3>A few words about...</h3>
+        <h1>Coffee</h1>
+        <h5>Wonderfull smell, intriguing taste, learn about the different types of coffee.</h5>
+        <a href="#sectionOrigin" class="scrollDown">
+            <span></span> Read More
+        </a>
+        <p>Photo by Aphiwat chuangchoem: https://www.pexels.com/photo/white-ceramic-coffee-teacup-beside-silver-teaspoon-437716/</p>
+    </section>
+    <section class="sectionOrigin" id="sectionOrigin">
+        <div class="originText">
+            <h2>Cultivation</h2>
+            <h5>Coffee is cultivating on three continents</h5>
+        </div>
+    </section>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
