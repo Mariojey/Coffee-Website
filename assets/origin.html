@@ -8,7 +8,7 @@
     <title>Coffee</title>
 
     <!-- STYLESHEETS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
@@ -16,7 +16,7 @@
 <body>
 
     <!--HEADER-->
-    <header id="header">
+    <header id="headerOrigin">
         <div id="navbar">
             <div id="navbarLogo"><span class="logoH">Coffee</span> <span class="logoP">of the world</span></div>
             <nav id="nav">
@@ -25,7 +25,7 @@
                         <a href="#" class="navLink">Home</a>
                     </li>
                     <li class="navItem">
-                        <a href="assets/origin.html" class="navLink">Origin</a>
+                        <a href="#" class="navLink">Origin</a>
                     </li>
                     <li class="navItem">
                         <a href="#" class="navLink">Cultivating</a>
@@ -37,31 +37,32 @@
             </nav>
         </div>
         <div id="headerContent">
-            <h3>A few words about....</h3>
-            <h1>Coffee</h1>
-            <h5>Wonderfull smell, amazing taste, learn more about coffee...</h5>
+            <h1 class="originHeaderH1">Origin</h1>
+            <h5>Story about coffee expansion to the world.</h5>
             <a href="#" class="scrollDown"><span></span></a>
         </div>
         <div id="headerFooter">
-            <p>Photo by Aphiwat chuangchoem from Pexels</p>
+            <p>Photo by mali maeder: https://www.pexels.com/photo/black-coffee-fruit-picked-during-daytime-92354/</p>
         </div>
     </header>
 
     <!--SECTION-->
-    <section id="section">
-        <div id="sectionContent">
-            <h2>Origin</h2>
-            <p>The earliest credible evidence of coffee-drinking or knowledge of the coffee tree appears in the middle of the 15th century in the accounts of Ahmed al-Ghaffar in Yemen. It was here in Arabia that coffee seeds were first roasted and brewed
-                in a similar way to how it is prepared now. Coffee was used by Sufi circles to stay awake for their religious rituals. Accounts differ on the origin of the coffee plant prior to its appearance in Yemen.</p>
+    <section id="sectionOrigin">
+        <div id="boxesOriginToText">
+            <div class="boxOrigin" id="etymology"><span>Etymology</span></div>
+            <div class="boxOrigin" id="history"><span>History</span></div>
+            <div class="boxOrigin" id="biology"><span>Biology</span></div>
         </div>
-        <div id="sectionImage">
-            <img src="img/pexels-min-an-770318.jpg" alt="" id="coffeeImage">
-        </div>
+        <article id="originText">
+            <h1 id="head"></h1>
+            <p id="pOriginText"></p>
+        </article>
     </section>
 
     <!--FOOTER-->
     <footer id="footer"></footer>
-    <script src="main.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="../main.js"></script>
 
 </body>
 
