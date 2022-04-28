@@ -12,7 +12,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-image: url(img/pexels-aphiwat-chuangchoem-437716.jpg);
+    background-image: url('img/pexels-aphiwat-chuangchoem-437716.jpg');
     background-size: cover;
     overflow-y: auto;
     background-attachment: fixed;
@@ -24,7 +24,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-image: url(img/pexels-mali-maeder-92354.jpg);
+    background-image: url('img/pexels-mali-maeder-92354.jpg');
     background-size: cover;
     overflow-y: auto;
     background-attachment: fixed;
@@ -190,16 +190,16 @@
 }
 
 .boxOrigin:nth-child(1) {
-    background-image: url(img/pexels-emiliano-arano-1443384.jpg);
+    background-image: url('img/pexels-emiliano-arano-1443384.jpg');
     margin-left: 10%;
 }
 
 .boxOrigin:nth-child(2) {
-    background-image: url(img/pexels-pratik-gupta-2748537.jpg);
+    background-image: url('img/pexels-pratik-gupta-2748537.jpg');
 }
 
 .boxOrigin:nth-child(3) {
-    background-image: url(img/pexels-ryan-horn-2318005.jpg);
+    background-image: url('img/pexels-ryan-horn-2318005.jpg');
 }
 
 #sectionContent {
