@@ -300,4 +300,7 @@
     .boxOrigin:nth-child(1) {
         margin-left: 0%;
     }
+    #originText {
+        color: white;
+    }
 }
