@@ -1,5 +1,10 @@
 function toggleMobileMenu(menu) {
     menu.classList.toggle('active');
+    const mobileNav = document.getElementById('mobileNav');
+    mobileNav.classList.toggle('active');
+
+    const navListMobile = document.querySelectorAll('.navListMobile');
+    navListMobile.classList.toggle('active');
 }
 
 VanillaTilt.init(document.querySelectorAll(".boxOrigin"), {
