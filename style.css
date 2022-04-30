@@ -216,7 +216,14 @@
     flex-direction: row;
 }
 
-#cultivationImageFirst {
+#sectionCultivationSecond {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cultivationImage {
     width: 40%;
     height: 80%;
     margin-top: 10%;
@@ -230,7 +237,22 @@
     box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.3);
 }
 
+.right {
+    margin-right: 5%;
+}
+
 #cultivationTextFirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#cultivationTextSecond {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,6 +394,9 @@
     #sectionOrigin {
         background-color: #000;
     }
+    .logoH {
+        display: none;
+    }
     #boxesOriginToText {
         display: flex;
         flex-direction: column;
@@ -412,7 +437,15 @@
         justify-content: center;
         align-items: center;
     }
-    #cultivationImageFirst {
+    #sectionCultivationSecond {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cultivationImage {
         width: 80%;
         height: 40%;
         margin-top: 10%;
@@ -420,5 +453,12 @@
     #cultivationTextFirst {
         width: 80%;
         height: 50%;
+    }
+    #cultivationTextSecond {
+        width: 80%;
+        height: 50%;
+    }
+    #right {
+        margin-bottom: 5%;
     }
 }
