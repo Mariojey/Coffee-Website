@@ -355,42 +355,8 @@
     color: #fff;
 }
 
-.footerContent {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.footerContentLeft {
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.footerContentLeft h2 {
-    margin-top: 50px;
-}
-
-.footerContentRight {
-    margin-right: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.footerContentRight h2 {
-    margin-top: 50px;
-}
-
-#footerList {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-
-#footerContact {
-    color: white;
-    list-style: none;
+#footer i {
+    color: lightskyblue;
 }
 
 @-webkit-keyframes scrollDown {
@@ -471,6 +437,11 @@
     }
     #originText {
         color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    #head {
         text-align: center;
     }
     .logoP {
