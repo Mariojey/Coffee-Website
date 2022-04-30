@@ -346,6 +346,53 @@
     transform: rotate(45deg) translate(-6px, -8px);
 }
 
+#footer {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 20, 20);
+    color: #fff;
+}
+
+.footerContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerContentLeft {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContentLeft h2 {
+    margin-top: 50px;
+}
+
+.footerContentRight {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContentRight h2 {
+    margin-top: 50px;
+}
+
+#footerList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#footerContact {
+    color: white;
+    list-style: none;
+}
+
 @-webkit-keyframes scrollDown {
     0% {
         -webkit-transform: rotate(-45deg) translate(0, 0);
