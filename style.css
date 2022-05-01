@@ -359,6 +359,45 @@
     color: lightskyblue;
 }
 
+#productionSection {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.productionText {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/pexels-igor-haritanovich-1695052.jpg');
+    color: #fff;
+}
+
+.borderBottomAnimation {
+    height: auto;
+    width: 90%;
+    padding-bottom: 30px;
+    transition: 2s;
+}
+
+.borderBottomAnimation:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.productionList {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+}
+
 @-webkit-keyframes scrollDown {
     0% {
         -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -478,5 +517,26 @@
     }
     #right {
         margin-bottom: 5%;
+    }
+    #productionSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .productionText {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .productionList {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #000;
     }
 }
